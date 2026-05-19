@@ -1,0 +1,8 @@
+services:
+  app:
+    build: .
+    volumes:
+      - ./input:/app/input
+      - ./results:/app/results
+      - ./models:/app/models
+      - ./src:/app/src
